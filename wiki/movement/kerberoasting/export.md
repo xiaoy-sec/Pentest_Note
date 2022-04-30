@@ -1,0 +1,1 @@
+	mimikatz>kerberos::list /export

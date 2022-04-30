@@ -1,0 +1,1 @@
+	>netdiscover -r 192.168.0.0/24 -i wlan0
