@@ -1,0 +1,1 @@
+	恶意DLL改名为fxsst.dll放置在c:\windows\目录即可实现对explorer.exe的劫持

