@@ -1,0 +1,1 @@
+	>getpassword.exe>1.txt

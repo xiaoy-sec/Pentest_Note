@@ -1,0 +1,1 @@
+	>QuarksPwDump.exe -dump-hash-local

@@ -1,0 +1,1 @@
+	>usemodule credentials/mimikatz/dcsync_hashdump

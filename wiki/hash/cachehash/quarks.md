@@ -1,0 +1,1 @@
+	>quarks-pwdump.exe –dump-hash-domain
