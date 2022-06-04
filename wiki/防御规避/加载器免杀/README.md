@@ -1,0 +1,2 @@
+- [shellcode_launcher](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/防御规避/加载器免杀/shellcode_launcher.md)
+- [SSI加载](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/防御规避/加载器免杀/SSI加载.md)

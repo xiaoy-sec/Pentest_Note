@@ -1,0 +1,3 @@
+- [c和c++源码免杀](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/防御规避/MSF+shellcode免杀/c和c++源码免杀.md)
+- [编码器](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/防御规避/MSF+shellcode免杀/编码器.md)
+- [nps_payload](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/防御规避/MSF+shellcode免杀/nps_payload.md)

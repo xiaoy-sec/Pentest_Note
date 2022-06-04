@@ -1,0 +1,7 @@
+- [Linux绕过disable_function](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/初始访问/一些Bypass/Linux绕过disable_function.md)
+- [Windows系统组件com绕过](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/初始访问/一些Bypass/Windows系统组件com绕过.md)
+- [cgi启动方式](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/初始访问/一些Bypass/cgi启动方式.md)
+- [蚁剑绕过](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/初始访问/一些Bypass/蚁剑绕过.md)
+- [ImageMagick组件绕过](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/初始访问/一些Bypass/ImageMagick组件绕过.md)
+- [常规函数绕过](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/初始访问/一些Bypass/常规函数绕过.md)
+- [Open_basedir绕过](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/初始访问/一些Bypass/Open_basedir绕过.md)
