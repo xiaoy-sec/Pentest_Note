@@ -1,0 +1,2 @@
+- [hydra](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/HASH操作/破解工具/hydra.md)
+- [medusa](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/HASH操作/破解工具/medusa.md)

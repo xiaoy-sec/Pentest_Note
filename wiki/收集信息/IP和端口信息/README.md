@@ -1,0 +1,4 @@
+- [ASN](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/收集信息/IP和端口信息/ASN.md)
+- [历史IP](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/收集信息/IP和端口信息/历史IP.md)
+- [NMAP使用](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/收集信息/IP和端口信息/NMAP使用.md)
+- [工具](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/收集信息/IP和端口信息/工具.md)

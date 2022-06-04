@@ -1,0 +1,4 @@
+- [Top25LFI参数](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/赏金技巧/TOP系列/Top25LFI参数.md)
+- [Top25RCE参数](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/赏金技巧/TOP系列/Top25RCE参数.md)
+- [Top25重定向dorks](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/赏金技巧/TOP系列/Top25重定向dorks.md)
+- [Top25ssrf](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/赏金技巧/TOP系列/Top25ssrf.md)

@@ -1,0 +1,1 @@
+- [使用grep快速去除垃圾数据](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/赏金技巧/一行命令/使用grep快速去除垃圾数据.md)

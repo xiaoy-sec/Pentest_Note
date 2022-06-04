@@ -1,0 +1,8 @@
+- [动态调用进程注入逻辑](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/系统类/动态调用进程注入逻辑.md)
+- [通过挂起EventLog服务线程禁用Windows事件日志](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/系统类/通过挂起EventLog服务线程禁用Windows事件日志.md)
+- [隐藏windows服务](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/系统类/隐藏windows服务.md)
+- [ImportDLLInjection-通过修改内存中的PE头来注入DLL的另一种方法](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/系统类/ImportDLLInjection-通过修改内存中的PE头来注入DLL的另一种方法.md)
+- [父进程破坏](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/系统类/父进程破坏.md)
+- [进程挖空(MitreT1055.012)](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/系统类/进程挖空(MitreT1055.012).md)
+- [远程解压文件](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/系统类/远程解压文件.md)
+- [使用WindowsDefender下载文件](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/系统类/使用WindowsDefender下载文件.md)

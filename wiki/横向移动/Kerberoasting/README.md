@@ -1,0 +1,6 @@
+- [申请票据](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/Kerberoasting/申请票据.md)
+- [破解密码](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/Kerberoasting/破解密码.md)
+- [导出票据](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/Kerberoasting/导出票据.md)
+- [SPN发现](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/Kerberoasting/SPN发现.md)
+- [GetUserSPNs](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/Kerberoasting/GetUserSPNs.md)
+- [重写票据](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/Kerberoasting/重写票据.md)

@@ -1,0 +1,4 @@
+- [AT](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/执行命令&IPC&计划任务/AT.md)
+- [IPC](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/执行命令&IPC&计划任务/IPC.md)
+- [Schtasks](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/执行命令&IPC&计划任务/Schtasks.md)
+- [Wmic](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/横向移动/执行命令&IPC&计划任务/Wmic.md)

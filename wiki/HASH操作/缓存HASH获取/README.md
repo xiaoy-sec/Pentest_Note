@@ -1,0 +1,3 @@
+- [Ninjacopy](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/HASH操作/缓存HASH获取/Ninjacopy.md)
+- [Quarks-pwdump](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/HASH操作/缓存HASH获取/Quarks-pwdump.md)
+- [注册表](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/HASH操作/缓存HASH获取/注册表.md)

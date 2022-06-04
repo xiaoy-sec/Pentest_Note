@@ -1,0 +1,6 @@
+- [Bypass AMSI](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/免杀技巧/Bypass-AMSI.md)
+- [一些可尝试绕过白名单的执行](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/免杀技巧/一些可尝试绕过白名单的执行.md)
+- [在Windows Server 2016和2019中绕过WindowsDefender](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/免杀技巧/在Windows-Server-2016和2019中绕过WindowsDefender.md)
+- [cshot远程shellcode](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/免杀技巧/cshot远程shellcode.md)
+- [内存中解码shellcode绕过av](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/免杀技巧/内存中解码shellcode绕过av.md)
+- [Pezor免杀](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/Redteam红队/免杀技巧/Pezor免杀.md)

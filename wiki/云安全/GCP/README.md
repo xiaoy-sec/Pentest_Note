@@ -1,0 +1,4 @@
+- [初始访问](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/云安全/GCP/初始访问.md)
+- [权限维持](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/云安全/GCP/权限维持.md)
+- [枚举](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/云安全/GCP/枚举.md)
+- [特权升级和横向移动](https://github.com/xiaoy-sec/Pentest_Note/blob/master/wiki/云安全/GCP/特权升级和横向移动.md)
