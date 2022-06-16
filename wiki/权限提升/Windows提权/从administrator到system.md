@@ -1,0 +1,1 @@
+	>PsExec.exe -i -s cmd.exe
